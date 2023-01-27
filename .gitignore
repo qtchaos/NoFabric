@@ -50,5 +50,4 @@ gradle-app.setting
 
 
 # Project exclude paths
-/assets/
 /gradle/
