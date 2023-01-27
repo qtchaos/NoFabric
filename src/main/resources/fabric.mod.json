@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nofabric",
+  "version": "${version}",
+  "name": "NoFabric",
+  "description": "A fabric mod that disables that pesky client identification packet, allowing you to look like you're playing on vanilla.",
+  "authors": [
+    "chaos"
+  ],
+  "contact": {
+    "homepage": "https://github.com/qtchaos/nofabric",
+    "sources": "https://github.com/qtchaos/nofabric",
+    "issues": "https://github.com/qtchaos/nofabric/issues"
+  },
+  "license": "GPL-3.0 license",
+  "icon": "assets/nofabric/icon.png",
+  "environment": "client",
+  "mixins": [
+    "nofabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

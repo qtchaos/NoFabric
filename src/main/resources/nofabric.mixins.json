@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.chaos.nofabric",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "CustomPayloadC2SMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
