@@ -22,6 +22,8 @@ jobs:
         key: ${{ runner.os }}-gradle-${{ hashFiles('**/gradle-wrapper.properties') }}
         restore-keys: |
           ${{ runner.os }}-gradle-
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
     - name: Build artifacts
       run: ./gradlew build
     - name: Extract current branch name
