@@ -19,9 +19,9 @@
     "nofabric.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.24",
+    "fabricloader": ">=0.16.5",
     "fabric": "*",
-    "minecraft": "1.20.2"
+    "minecraft": "1.21.1"
   },
   "custom": {
     "modmenu": {
